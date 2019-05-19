@@ -13,13 +13,14 @@
 
 /* Header */
 
-	#header {
-		body.is-preload & {
-			opacity: 1;
+#header {
+  body.is-preload,
+  .main-body.is-preload & {
+    opacity: 1;
 
-			footer {
-				@include vendor('transform', 'none');
-				opacity: 1;
-			}
-		}
-	}
+    footer {
+      @include vendor('transform', 'none');
+      opacity: 1;
+    }
+  }
+}

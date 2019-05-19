@@ -105,7 +105,7 @@
 			box-sizing: inherit;
 		}
 
-	body {
+	body, .main-body {
 		background-color: #183026;
 		background-image: url('../images/overlay.png'), url('../images/bg.jpg');
 		background-repeat: repeat, no-repeat;
@@ -846,7 +846,7 @@
 			}
 		}
 
-		body.is-preload & {
+		body.is-preload, .main-body.is-preload & {
 			opacity: 0;
 
 			footer {
