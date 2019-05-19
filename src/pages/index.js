@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-
+import { Link } from 'gatsby';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import Scroll from '../components/Scroll';
@@ -181,6 +181,16 @@ const IndexPage = () => (
           </div>
         </div>
       </form>
+    </article>
+
+    <article className="container box style3">
+      <header>
+        <h2>Elements</h2>
+        <p>This starter has other elements.</p>
+        <br />
+        Check it out
+        <Link to="/Element"> here </Link>
+      </header>
     </article>
 
     <Footer />
