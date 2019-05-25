@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const IndexPage = () => (
   <Layout>
-    <article class="container box style3">
+    <article className="container box style3">
       <header>
         <h2>Generic Box</h2>
         <p>Just a generic box. Nothing to see here.</p>
@@ -113,7 +113,7 @@ const IndexPage = () => (
         <header>
           <h3>Table</h3>
         </header>
-        <div class="table-wrapper">
+        <div className="table-wrapper">
           <table>
             <thead>
               <tr>
@@ -163,10 +163,10 @@ const IndexPage = () => (
           <h3>Form</h3>
         </header>
         <form method="post" action="#">
-          <div class="row">
-            <div class="col-6 col-12-mobile">
+          <div className="row">
+            <div className="col-6 col-12-mobile">
               <input
-                class="text"
+                className="text"
                 type="text"
                 name="name"
                 id="name"
@@ -174,9 +174,9 @@ const IndexPage = () => (
                 placeholder="John Doe"
               />
             </div>
-            <div class="col-6 col-12-mobile">
+            <div className="col-6 col-12-mobile">
               <input
-                class="text"
+                className="text"
                 type="text"
                 name="email"
                 id="email"
@@ -184,7 +184,7 @@ const IndexPage = () => (
                 placeholder="johndoe@domain.tld"
               />
             </div>
-            <div class="col-12">
+            <div className="col-12">
               <select name="department" id="department">
                 <option value="">Choose a department</option>
                 <option value="1">Manufacturing</option>
@@ -192,9 +192,9 @@ const IndexPage = () => (
                 <option value="3">Support</option>
               </select>
             </div>
-            <div class="col-12">
+            <div className="col-12">
               <input
-                class="text"
+                className="text"
                 type="text"
                 name="subject"
                 id="subject"
@@ -202,20 +202,20 @@ const IndexPage = () => (
                 placeholder="Enter your subject"
               />
             </div>
-            <div class="col-12">
+            <div className="col-12">
               <textarea
                 name="message"
                 id="message"
                 placeholder="Enter your message"
               />
             </div>
-            <div class="col-12">
-              <ul class="actions">
+            <div className="col-12">
+              <ul className="actions">
                 <li>
                   <input type="submit" value="Submit" />
                 </li>
                 <li>
-                  <input type="reset" class="style3" value="Clear Form" />
+                  <input type="reset" className="style3" value="Clear Form" />
                 </li>
               </ul>
             </div>
